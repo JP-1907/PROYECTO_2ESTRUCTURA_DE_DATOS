@@ -4,7 +4,7 @@ public class GestorImpresion {
     private MonticuloBinario cola = new MonticuloBinario();
     private TablaHash usuarios = new TablaHash();
 
-
+//Para agregar un documento
     public void agregarDocumento(String nombre, String usuario, boolean forzarPrio, int tam) {
         int prioridadFinal;
         String tipoEnTabla = usuarios.buscarTipo(usuario);
@@ -18,7 +18,7 @@ public class GestorImpresion {
         Documento nuevo = new Documento(nombre, usuario, prioridadFinal);
         cola.insertar(nuevo);
     }
-
+//Imprimir el documento
     public Documento imprimirSiguiente() {
         return cola.eliminar();
     }
