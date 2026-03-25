@@ -11,15 +11,15 @@ public class Main {
             System.out.println("No se pudo establecer el estilo visual: " + e.getMessage());
         }
 
-        // Lanzamos la ventana principal
+
         java.awt.EventQueue.invokeLater(() -> {
  
             VentanaPrincipal ventana = new VentanaPrincipal();
             
-            // La hacemos visible
+
             ventana.setVisible(true);
             
-            // con esto se Centra la ventana 
+ 
             ventana.setLocationRelativeTo(null);
         });
     }
