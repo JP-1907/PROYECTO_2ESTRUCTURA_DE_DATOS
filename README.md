@@ -4,6 +4,7 @@ El sistema calcula la prioridad de cada documento basándose en el tipo de usuar
 
 
 -FuncionalidadesGestión de Prioridades: 
+
 1)Los documentos no se imprimen por orden de llegada simple, sino por una jerarquía de importancia calculada.
 
 2)Visualización en Tiempo Real: Interfaz gráfica que dibuja el árbol binario (Heap) conforme se agregan o eliminan 
