@@ -3,7 +3,7 @@ package proyecto.pkg2;
 public class Documento {
     private String nombre;
     private String usuario;
-    private int etiquetaTiempo; // Este es el valor de prioridad (Páginas)
+    private int etiquetaTiempo;
 
     public Documento(String nombre, String usuario, int etiqueta) {
         this.nombre = nombre;
