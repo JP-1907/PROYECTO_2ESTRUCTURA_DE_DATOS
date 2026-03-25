@@ -11,7 +11,7 @@ public class MonticuloBinario {
             tamaño++;
         }
     }
-
+//Eliminar
     public Documento eliminar() {
         if (tamaño == 0) return null;
         Documento raiz = nodos[0];
@@ -20,7 +20,7 @@ public class MonticuloBinario {
         if (tamaño > 0) hundir(0);
         return raiz;
     }
-
+//aumentar prioridad
     private void subir(int i) {
         int padre = (i - 1) / 2;
         if (i > 0 && nodos[i].getEtiquetaTiempo() < nodos[padre].getEtiquetaTiempo()) {
