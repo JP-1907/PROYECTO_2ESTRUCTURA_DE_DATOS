@@ -9,13 +9,12 @@ import java.util.logging.Logger;
 
 public class VentanaPrincipal extends javax.swing.JFrame {
 
-    // Atributos 
     private GestorImpresion gestor = new GestorImpresion();
     private JPanel lienzoArbol;
-    // Definición del logger que pide NetBeans
+
     private static final Logger logger = Logger.getLogger(VentanaPrincipal.class.getName());
 
-    // --- 2. CONSTRUCTOR ---
+
     public VentanaPrincipal() {
         initComponents(); 
         
@@ -29,7 +28,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         }
     }
 
-    //CONFIGURACION DEL LIENZO(Daniel)
+    //CONFIGURACION DEL LIENZO
     private void configurarLienzoArbol() {
         lienzoArbol = new JPanel() {
             @Override
@@ -59,7 +58,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     @SuppressWarnings("unchecked")
 
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
