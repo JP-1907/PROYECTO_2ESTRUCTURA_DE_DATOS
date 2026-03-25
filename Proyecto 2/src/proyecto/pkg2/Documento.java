@@ -4,7 +4,7 @@ public class Documento {
     private String nombre;
     private String usuario;
     private int etiquetaTiempo;
-
+//Definimos la clase documento
     public Documento(String nombre, String usuario, int etiqueta) {
         this.nombre = nombre;
         this.usuario = usuario;
