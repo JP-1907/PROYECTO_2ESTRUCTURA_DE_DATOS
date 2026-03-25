@@ -1,6 +1,6 @@
 -Sistema de Gestión de Impresión - Montículo Binario
-Este proyecto consiste en un Gestor de Impresión que organiza documentos en una cola de prioridad utilizando un Montículo Binario (Min-Heap). 
-El sistema calcula la prioridad de cada documento basándose en el tipo de usuario (VIP o Normal), el tamaño del archivo y el tiempo de llegada.
+Este proyecto consiste en un Gestor de Impresión que organiza documentos en una cola de prioridad utilizando un Montículo Binario. 
+El sistema calcula la prioridad de cada documento basándose en el tipo de usuario, el tamaño del archivo y el tiempo de llegada.
 
 
 -FuncionalidadesGestión de Prioridades: 
@@ -14,13 +14,11 @@ El sistema calcula la prioridad de cada documento basándose en el tipo de usuar
 4)Identificación por Hash: Uso de tablas hash para la verificación rápida de usuarios y sus niveles de prioridad.
 
 -Tecnologías UtilizadasLenguaje: 
-Java 17 o superior.Entorno: NetBeans IDE / IntelliJ IDEA.Librerías: * javax.swing y java.awt para la interfaz gráfica y el motor de dibujo.java.util.logging para el rastreo de eventos (Logger).
+Java 17 o superior.Entorno: NetBeans IDEA.Librerías: * javax.swing y java.awt para la interfaz gráfica y el motor de dibujo.java.util.logging para el rastreo de eventos (Logger).
 
-1)Estructura de DatosEl núcleo del proyecto utiliza un Min-Heap. 
+1)Estructura de Datos El núcleo del proyecto utiliza un Min-Heap. 
 
-2)En este árbol:El nodo raíz siempre contiene el documento con la etiqueta de tiempo más baja (mayor prioridad).
-
-3)Al imprimir, el sistema extrae la raíz y reordena el árbol automáticamente para mantener la eficiencia O(\log n).
+2)En este árbol El nodo raíz siempre contiene el documento con la etiqueta de tiempo más baja (mayor prioridad).
 
 Colaboradores:
 -Daniel Angulo
