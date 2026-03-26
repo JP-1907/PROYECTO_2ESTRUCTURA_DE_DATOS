@@ -23,4 +23,6 @@ Java 17 o superior.Entorno: NetBeans IDEA.Librerías: * javax.swing y java.awt p
 Colaboradores:
 -Daniel Angulo
 -Juan Rojas
+
+
 https://github.com/JP-1907/PROYECTO_2ESTRUCTURA_DE_DATOS
