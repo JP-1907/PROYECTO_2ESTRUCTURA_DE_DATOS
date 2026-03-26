@@ -16,12 +16,11 @@ El sistema calcula la prioridad de cada documento basándose en el tipo de usuar
 -Tecnologías UtilizadasLenguaje: 
 Java 17 o superior.Entorno: NetBeans IDEA.Librerías: * javax.swing y java.awt para la interfaz gráfica y el motor de dibujo.java.util.logging para el rastreo de eventos (Logger).
 
-1)Estructura de Datos El núcleo del proyecto utiliza un Min-Heap. 
-
-2)En este árbol El nodo raíz siempre contiene el documento con la etiqueta de tiempo más baja (mayor prioridad).
+-En este árbol El nodo raíz siempre contiene el documento con la etiqueta de tiempo más baja (mayor prioridad).
 
 Colaboradores:
 -Daniel Angulo
+
 -Juan Rojas
 
 
